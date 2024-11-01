@@ -1,0 +1,124 @@
+#ocwdc-loading {
+	display: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#ocwdc-loading img {
+    display: inline-block;
+}
+.ocwdc-not-available {
+	background-color: #8a0e0e;
+	padding: 8px 14px;
+	border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.ocwdc-not-available p, .ocwdc-available p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 76%;
+    font-size: 18px;
+    color: #ffffff;
+}
+.ocwdc-available {
+	background-color: #87b74f;
+	padding: 5px 10px;
+	border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.ocwdc-result p {
+    display: inline-block;
+	overflow: auto;
+}
+.ocwdc-result {
+	width: 100%;
+}
+.ocwdc_search_div {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.ocwdc_search_div input[type="text"] {
+    flex-grow: 2;
+    border: none;
+}
+.ocwdc_search_div input[type="text"]:focus {
+    outline: none;
+}
+.ocwdc_search_div input[type="text"]:focus {
+    outline: none;
+}
+.ocwdc_search_div select {
+    margin-right: 12px;
+    border: none;
+    outline: none;
+}
+.ocwdc_dot {
+    padding: 8px 5px;
+}
+.ocwdc_search_div input[type="submit"]:hover, .ocwdc_search_div input[type="submit"]:focus {
+    text-decoration: none;
+    outline: none;
+}
+.ocwdc-domain-main {
+    display: block;
+    margin: 0 auto;
+}
+.ocwdc-domain-main h2 {
+    text-align: center;
+}
+div#ocwdc-results {
+    margin-top: 15px;
+}
+input[type="submit"].ocwdc_srchbtn {
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.ocwdc_open_whois {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #8a0e0e;
+    padding: 4px 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+}
+.ocwdc_open_atc {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #87b74f;
+    padding: 4px 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+}
+.ocwdc_tficons {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-right: 8px;
+}
+.ocwdc_tficons svg path {
+    fill: #ffffff;
+}
+.ocwdc-domain-main a:focus {
+    outline: none;
+}
+.ocwdc-domain-main a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,213 @@
+.ocwdc_main_head {
+    margin: 40px 15px 0;
+}
+.ocwdc_data_table tr {
+    line-height: 45px;
+    width: 100%;
+}
+.ocwdc-container {
+    padding: 15px;
+    width: 90%;
+}
+label.ocwdc_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.pro .wp-picker-container {
+    opacity: 0.5;
+    pointer-events: none;
+}
+table.ocwdc_data_table tr th {
+    text-align: left;
+    padding-right: 40px;
+    width: 170px;
+}
+.ocwdc_save_btn {
+	margin-top: 40px !important;
+}
+.ocwdc-container ul.ocwdc-tabs {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+.ocwdc-container ul.ocwdc-tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -1px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+.ocwdc-container ul.ocwdc-tabs li.ocwdc-current {
+    background: #d5d5d5;
+    color: #000000;
+    border-top: 1px solid #2271b1;
+    border-right: 1px solid #2271b1;
+    border-left: 1px solid #2271b1;
+}
+.ocwdc-container .ocwdc-tab-content {
+    display: none;
+    background: #d5d5d5;
+    padding: 15px 0;
+    border: 1px solid #2271b1;
+}
+.ocwdc-container .ocwdc-tab-content.ocwdc-current {
+    display: inherit;
+}
+.ocwdc_grp_div > h3 {
+    background-color: #2271b1;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+.ocwdc_grp_div table {
+    margin-left: 20px;
+}
+.ocwdc_grp_div .ocwdc_shrtcdtxt {
+    margin-left: 20px;
+}
+.ocwdc_data_table span.description {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    width: 90%;
+}
+.ocwdc_data_table textarea {
+    width: 400px;
+    margin-top: 20px;
+    height: 60px;
+    padding: 8px;
+}
+.ocwdc_inputtxt .description {
+    display: block;
+    margin-top: 0;
+    line-height: 13px;
+    margin-bottom: 15px;
+}
+.ocwdc_subhead h3 {
+    margin: 0;
+    padding: 0;
+}
+a.ocwdctbl_addrow img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+a.ocwdctbl_deleterow img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+a.ocwdctbl_addrow, a.ocwdctbl_deleterow {
+    display: table-cell;
+}
+.ocwdc_grp_div table.ocwdc_tld_table {
+    margin-left: 0;
+}
+.ocwdc_tld_table tr {
+    line-height: 35px;
+}
+table.ocwdc_tld_table tr th {
+    text-align: center;
+    padding-right: 0;
+}
+.ocwdc_dchecker_sel {
+    margin-bottom: 4px;
+}
+.ocwdc_dmnavltxt {
+    height: 70px;
+}
+.ocwdc_dmnavltxt th {
+    line-height: 25px;
+}
+.ocwdc_recaptcha_table {
+    width: 100%;
+}
+table.ocwdc_recaptcha_table tr th {
+    width: 30%;
+}
+
+/*CSS for support rating donation start*/
+.ocwdc_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.ocwdc_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.ocwdc_rateus_notice, .ocwdc_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.ocwdc_rateus_notice h3, .ocwdc_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.ocwdc_rateus_notice label, .ocwdc_support_notice label {
+    font-size: 16px;
+}
+.ocwdc_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.ocwdc_rateus_notice a, .ocwdc_support_notice a {
+    color: #fff;
+}
+.ocwdc_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.ocwdc_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.ocwdc_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.ocwdc_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.ocwdc_donate_main img {
+    height: 32px;
+}
+.ocwdc_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.ocwdc_donate_main h3 {
+    font-size: 15px;
+}
+.ocwdc_donate_form {
+    display: flex;
+}
+.ocwdc_donate_main .button {
+    text-align: center;
+}
+/*CSS for support rating donation end*/
